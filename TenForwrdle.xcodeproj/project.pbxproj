@@ -13,6 +13,8 @@
 		90F533E727B2AF83001520A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F533D527B2AF82001520A9 /* ContentView.swift */; };
 		90F533E827B2AF83001520A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F533D627B2AF83001520A9 /* Assets.xcassets */; };
 		90F533E927B2AF83001520A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F533D627B2AF83001520A9 /* Assets.xcassets */; };
+		90F533F327B2B049001520A9 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F533F227B2B049001520A9 /* RowView.swift */; };
+		90F533F427B2B049001520A9 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F533F227B2B049001520A9 /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		90F533DB27B2AF83001520A9 /* TenForwrdle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenForwrdle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F533E127B2AF83001520A9 /* TenForwrdle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenForwrdle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F533E327B2AF83001520A9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90F533F227B2B049001520A9 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				90F533D427B2AF82001520A9 /* TenForwrdleApp.swift */,
 				90F533D527B2AF82001520A9 /* ContentView.swift */,
+				90F533F227B2B049001520A9 /* RowView.swift */,
 				90F533D627B2AF83001520A9 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F533E627B2AF83001520A9 /* ContentView.swift in Sources */,
+				90F533F327B2B049001520A9 /* RowView.swift in Sources */,
 				90F533E427B2AF83001520A9 /* TenForwrdleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F533E727B2AF83001520A9 /* ContentView.swift in Sources */,
+				90F533F427B2B049001520A9 /* RowView.swift in Sources */,
 				90F533E527B2AF83001520A9 /* TenForwrdleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
